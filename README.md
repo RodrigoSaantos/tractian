@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h2 align="center">
+  <img alt="Tractian" title="#Tractian" src="public/LOGO_TRACTIAN.png" width="200"/>
+</h2>
 
-## Getting Started
+<h1 align="center">
+    Front End Software Engineer
+</h1>
+<p align="center"> Build an Tree View Application that shows companies Assets (The tree is basically composed with components, assets and locations)
+ </p>
 
-First, run the development server:
+<h1 align="center">
+  <img width="600" style="border-radius: 10px" height="auto" alt="home" title="home" src="public/home.png" />
+</h1>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<h2 id="technologies"> 🛠 Technologies </h2>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The following tools were used in the construction of the project:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [TailwindCSS](https://tailwindcss.com/)
+- [NextJS](https://nextjs.org/)
+- [ReactJS](https://reactjs.org)
+- [NodeJS](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com) or Npm
+- [VSCode](https://code.visualstudio.com)
+- [Git Bash](https://gitforwindows.org/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<h2 id="author"> 💻 Author </h2>
 
-## Learn More
+<img style="border-radius: 50%;" src="https://github.com/RodrigoSaantos.png" width="100px;" alt="Rodrigo Santos"/>
 
-To learn more about Next.js, take a look at the following resources:
+By Rodrigo Santos 👋🏽 Find me:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[![Linkedin Badge](https://img.shields.io/badge/-RodrigoSantos-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rodrigo-dos-santos-silva-637225156/)](https://www.linkedin.com/in/rodrigo-dos-santos-silva-637225156/)
+|
+[![Gmail Badge](https://img.shields.io/badge/-contato.rodrigosaantos@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:contato.rodrigosaantos@gmail.com)](mailto:contato.rodrigosaantos@gmail.com)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<h2 id="demo"> 🎌 Demo </h2>
 
-## Deploy on Vercel
+<h1 align="center">
+  <div style="display: flex; flex-direction: row;">
+    <img width="900" style="border-radius: 10px" height="auto" alt="demo" title="demo" src="public/demo.gif" />
+  <div>
+</h1>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<h2 id="license"> 📝 License </h2>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is under the MIT license.
