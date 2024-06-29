@@ -81,12 +81,14 @@ const Aside = React.forwardRef<HTMLDivElement, SpanProps>(
                           data={asset}
                           level={'3'}
                         >
+                          {/* @ts-ignore */}
                           {asset?.children.map(subAsset => (
                             <Item
-                              key={subAsset.id}
-                              data={subAsset}
-                              level={'4'}
+                            key={subAsset.id}
+                            data={subAsset}
+                            level={'4'}
                             >
+                              {/* @ts-ignore */}
                               {subAsset?.children.map(component => (
                                 <Item
                                   key={component.id}

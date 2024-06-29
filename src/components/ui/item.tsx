@@ -47,6 +47,7 @@ const Item = React.forwardRef<HTMLButtonElement, ButtonProps>(
     const Comp = asChild ? Slot : "button"
     const [isOpen, setOpen] = React.useState(false)
     const Icon = variantsIcon[variant(data) || 'location']
+    // @ts-ignore
     const hasChildren = data?.children.length > 0
     const status = {
       'operating': 'fill-green-500',
@@ -79,6 +80,7 @@ const Item = React.forwardRef<HTMLButtonElement, ButtonProps>(
           <Icon className={`fill-blue-500 group-focus:fill-primary-foreground size-[22px] mr-1`} />
           <Text className="flex items-center group-focus:text-primary-foreground">
             {data.name}
+            {/* @ts-ignore */}
             {type === 'component' && <Icons.eclipse className={`ml-2 ${status[data?.status as keyof typeof status]}`} />}
           </Text>
         </Comp>
